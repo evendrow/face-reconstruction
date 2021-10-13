@@ -1,4 +1,8 @@
 # Realistic Face Reconstruction from Deep Embeddings
+
+![METRO_header](doc/header.png)
+**Picture:** *Using just the face embedding of each target image (top row), we accurately reconstruct a face image with is both high-quality and have similarly-perceived identities to the target.*
+
 This is the repository contains the implementation for the paper:
 
 > **Realistic Face Reconstruction from Deep Embeddings**<br>
