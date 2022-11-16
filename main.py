@@ -32,7 +32,7 @@ def distance(embeddings1, embeddings2, distance_metric=0):
 
     return dist
 
-class FaceReconsturction:
+class FaceReconstruction:
     
     def __init__(self, device='cuda'):
         self.device = device
@@ -317,7 +317,7 @@ if __name__ == "__main__":
         print("Running with annealing")
     print(args)
         
-    face_reconstruction = FaceReconsturction()
+    face_reconstruction = FaceReconstruction()
     
     if args.setup:
         print("Running setup procedure...")
